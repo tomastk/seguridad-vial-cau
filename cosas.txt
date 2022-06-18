@@ -1,0 +1,11 @@
+ICONOS: 
+
+- Up Arrow: <i class="fa-solid fa-angle-up"></i>
+- Hamburguer menu: <i class="fa-solid fa-bars"></i>
+
+FUENTES:
+
+- H1: Encode Bold
+- H2: Encode SemiBold
+- P: Encode Regular
+- Menu Items: Encode Medium
