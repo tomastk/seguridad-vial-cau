@@ -93,10 +93,12 @@ box-shadow: 0px 4px 4px 0px #00000040;
   color: black;
 }
 
+
 section article {
   max-width: 90%;
   margin: auto;
   margin-top: 29px;
+  margin-bottom: 40px;
 }
 
 section article h2 {
