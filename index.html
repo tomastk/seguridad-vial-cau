@@ -4,16 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Mis propios Estilos-->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="shortcut icon" href="./img/isotipo.jpg" type="image/x-icon">
+  <!--Fuente Encode-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!--Iconos de Font Awesome-->
   <script src="https://kit.fontawesome.com/3a8170a9f3.js" crossorigin="anonymous"></script>
   <title>Seguridad Vial</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="header-l">
       <a href="./index.html"><img src="./img/Logo.svg" alt="Logotipo del sitio web"></a>
       <div class="hamburguer-menu" id="hamburguer">
@@ -22,7 +26,9 @@
     </div>
     <nav class="menu" id="menu">
       <a href="./sobre-nosotros.html">Sobre nosotros</a>
-      <a href="#" id="sub-menu">Capítulos <i class="fa-solid fa-caret-down"></i></a>
+      <p id="sub-menu" class="btn">
+        Capítulos <i class="fa-solid fa-caret-down"></i>
+      </p>
       <nav class="submenu">
         <a href="./reglas-de-transito.html">Reglas de Tránsito</a>
         <a href="./seguridad-en-vehiculo.html">Seguridad en Vehículo</a>
@@ -81,8 +87,8 @@
         <img src="./img/Logo.svg" alt="Logotipo del Sitio web">
       </div>   
       <nav class="footer-nav">
-        <a href="#">Sobre Nosotros</a>
-        <a href="#">Descargas</a>
+        <a href="./sobre-nosotros.html">Sobre Nosotros</a>
+        <a href="./descargas.html">Descargas</a>
       </nav>
     </div>
   </footer>
