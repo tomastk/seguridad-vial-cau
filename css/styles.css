@@ -343,16 +343,47 @@ footer a {
 }
 
 .btn {
-  display: inline-block;
-  color: black;
-  cursor: pointer;
+  display: inline-block!important;
+  color: black!important;
+  cursor: pointer!important;
   font-weight: 600;
   margin-right: 20px;
 }
 
+
 /* Css para los videos de Youtube */
 
 @media screen and (max-width: 1000px){
+
+  .card {
+    margin-left: 0;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .card:nth-child(1){
+    margin-left: auto;
+  }
+
+  .card .text{
+    margin-left: 0;
+  }
+
+  .card .text h3{
+    text-align: center;
+  }
+
+  .cards{
+    justify-content: center;
+  }
+
+  .btn {
+    font-weight: 500!important;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
   .video-container {
     position: relative;
     padding-bottom: 70%;
