@@ -8,8 +8,8 @@ ham.addEventListener('click', () => {
 const submenu = document.getElementById("sub-menu")
 submenu.addEventListener('click', () =>{
   document.querySelector('.submenu').classList.toggle("showed");
-  document.getElementById("header").classList.toggle('fixed')
-  main.classList.toggle('down')
+  document.getElementById("header").classList.toggle('fixed');
+  main.classList.toggle('down');
 })
 
 /* Código de la Tabla de Contenidos (Desktop) */
@@ -19,7 +19,7 @@ const footer = document.querySelector('footer')
 function expandirTabla(entradas, observer) {
   entradas.forEach(entrada => {
     if(entrada.isIntersecting){
-      tabla.classList.add("expanded")
+      tabla.classList.add("expanded");
     }
   });
 }

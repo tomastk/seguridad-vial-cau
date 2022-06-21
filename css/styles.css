@@ -7,7 +7,7 @@
 }
 
 h2, h3, h4, h5, h6 {
-  margin: 20px 0px 20px 30px;
+  margin: 20px 0px 20px 0px;
 }
 
 a{
@@ -50,25 +50,31 @@ main {
   justify-content: center;
   padding: 0 20px 0 20px;
   align-items: center;
-  height: 33vh;
+  height: 30vh;
   z-index: 20;
+  border-width: 0px 10px 10px 0px;
+  border-style: solid;
+  border-color: #2D9CDB;
+  border-radius: 60px;
   margin-top: 120px;
 }
 
 main h1{
   position: relative;
+  margin: auto;
   z-index: 100;
   color: white;
   text-shadow: 0px 4px 4px #000000;
 }
 
 main::before {
+  border-radius: 60px;
   content    : "";
   background : #56CCF2;
   display    : block;
   position   : absolute;
   opacity    : 0.4;
-  height: 33vh;
+  height: 30vh;
   width: 100%;
   z-index: 10;
 }
@@ -224,6 +230,7 @@ footer a {
     margin-left: 20px;
     position: fixed;
     bottom: 15px;
+    margin-top: 20px;
     max-height: 190px;
     overflow-x: scroll;
     transition: all .3s;
@@ -244,17 +251,28 @@ footer a {
     text-decoration: underline;
   }
 
+  @keyframes appear{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
   .submenu.showed{
     padding: 40px;
     z-index: 5000;
-    margin: auto;
     position: fixed;
+    text-align: center;
     top: 105px;
-    left: 0;
-    right: 0;
+    width: 600px;
+    right: 40px;
     background-color: #56CCF2;
     display: flex;
     flex-direction: column;
+    animation-name: appear;
+    animation-duration: .7s;
   }
 
   .submenu.showed a {
@@ -271,6 +289,7 @@ footer a {
     top: 0;
     left: 0;
     right: 0;
+    border-bottom: 3px #2D9CDB;
     z-index: 10000;
   }
   main.down{
@@ -401,3 +420,6 @@ footer a {
   }
 }
 
+#site-header{
+  margin-left: 30px;
+}
