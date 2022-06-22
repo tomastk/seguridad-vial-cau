@@ -235,7 +235,7 @@ footer a {
     max-height: 190px;
     overflow-x: scroll;
     transition: all .3s;
--+  }
+ }
 
     .table-of-contents a {
       max-width: 400px;
