@@ -432,3 +432,9 @@ article img {
 #site-header{
   margin-left: 30px;
 }
+
+/* Iconos de Redes Sociales */
+
+.socials a{
+  display: inline;
+}
