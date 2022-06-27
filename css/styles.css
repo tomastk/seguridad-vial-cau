@@ -374,6 +374,9 @@ footer a {
   margin-right: 20px;
 }
 
+article img {
+  max-width: 100%;
+}
 
 /* Css para los videos de Youtube */
 
