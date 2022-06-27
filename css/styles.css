@@ -305,7 +305,7 @@ footer a {
 
 /* Cards Container Page */
 
-.cards {
+.cards, .alumnos {
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -437,4 +437,32 @@ article img {
 
 .socials a{
   display: inline;
+}
+
+/* Código de la parte de about */
+
+.about {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.alumnos .card {
+  border-radius: 0;
+}
+
+
+@media screen and (max-width: 700px){
+  .alumnos {
+    flex-direction: column;
+  }
+  .about {
+    max-width: 80%;
+  }
+  .alumnos .card .image{
+    margin-left: 0;
+    text-align: center;
+  }
 }
