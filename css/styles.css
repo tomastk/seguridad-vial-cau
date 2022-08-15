@@ -481,3 +481,18 @@ p{
 img {
   max-width: 100%;
 }
+
+.contenido {
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.contenido p {
+  margin-bottom: 20px;
+}
+
+.contenido ul li {
+  margin-bottom: 20px;
+}
