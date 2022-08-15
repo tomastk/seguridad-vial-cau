@@ -550,3 +550,9 @@ section article p {
 .contenido ul li {
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 700px) {
+  .contenido {
+   max-width: 80%;
+ }
+}
